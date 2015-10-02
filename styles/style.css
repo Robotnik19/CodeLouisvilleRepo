@@ -1,0 +1,40 @@
+.main-container {
+
+}
+.main-window {
+   background-color: #F2F2F2;
+}
+
+.anime-card {
+	/*padding: 15px;*/
+	overflow: hidden;
+	border: 10px solid white;
+	min-height: 260px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: white;
+}
+
+.anime-card img {
+	min-width: 100%;
+}
+/*
+img {
+    border: 0;
+    
+    width: 225px;
+}
+*/
+
+.selectedCard {
+	border: 10px solid #3232FF;
+	background-color: #3232FF;
+}
+
+#info {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #F8F8F8;
+}
